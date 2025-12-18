@@ -337,7 +337,7 @@ const _slideComplete = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Today, I send all my best prayers for you.", "May the things that make you fall also become reasons for you to keep growing.", "May the world always protect you wherever you are.", "May your days always be accompanied by love that has no limits.", "May every step you take be made easier until you achieve what you desire."],
+  strings: ["Today, I send all my best prayers for you.", "May every step you take be made easier until you reach what you truly desire.", "May the world protect you wherever you are, and may your days be filled with love without limits.", "May every step you take be made easier until you achieve what you desire."],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true,
@@ -352,7 +352,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["With or without me, may the universe always make you happy in any way.", " ", "May God bless you, thank you for holding on this far.", " ", "- Wishing you all the best"],
+  strings: ["With or without me, may the universe always make you happy in any way.", " ", "May God bless you, thank you for holding on this far.", " ", "May your days be soft, your nights peaceful, and your dreams close enough to touch. I'm always with you — wishing you all the best."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -361,23 +361,12 @@ new TypeIt("#teks2", {
 
 // Message for YES response
 new TypeIt("#trimsYes", {
-  strings: ["Yay! I'm so glad you liked it! 💕", "Thank you for being amazing!", "Happy Birthday! 🎉"],
+  strings: ["Yay! I'm so glad you liked it! 💕", "Thank you for being soooo amazing!", "Happy Birthday! 🎉"],
   startDelay: 2000,
   speed: 100,
   loop: false,
   waitUntilVisible: true,
 }).go();
-
-// Message for NO response
-new TypeIt("#trimsNo", {
-  strings: ["Aww, that's okay!", "I tried my best for you...", "Hope you still have a wonderful birthday! 💙"],
-  startDelay: 2000,
-  speed: 100,
-  loop: false,
-  waitUntilVisible: true,
-}).go();
-
-
 
 'use strict';
 
