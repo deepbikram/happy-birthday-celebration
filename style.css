@@ -104,11 +104,23 @@ html {
   border: 0;
   outline: 0;
   background: transparent;
-  color: #3f3f44;
+  color: #1a1a1a;
   font-family: 'Handlee', cursive;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
   box-sizing: border-box;
   z-index: 1;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile-specific enhancements for paper text */
+@media screen and (max-width: 480px) {
+  .paper-content .teks {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  }
 }
 
 .kotak {
