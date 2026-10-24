@@ -4,7 +4,7 @@ A simple, delightful web page to celebrate someone’s birthday with animations,
 
 ## Demo
 
-Live site: [[krishma.deepbikram.com.np](https://krishma.deepbikram.com.np)](https://deepbikram.github.io/happy-birthday-celebration/)
+Live site: https://deepbikram.github.io/happy-birthday-celebration/
 
 ## Features
 
